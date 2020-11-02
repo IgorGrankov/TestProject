@@ -1,0 +1,18 @@
+{
+   "id":666,
+   "category":{
+      "id": 1,
+      "name":"doggo"
+   },
+   "name":"doggo",
+   "photoUrls":[
+      "string"
+   ],
+   "tags":[
+      {
+         "id":123,
+         "name":"doggo"
+      }
+   ],
+   "status":"pending"
+}

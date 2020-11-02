@@ -1,0 +1,12 @@
+{
+   "id":123,
+   "category":{
+      "id":123,
+      "name":"doggie"
+   "tags":[
+      {
+         "id":123,
+         "name":"doggie"
+      }
+   ],
+   "status":"available"
