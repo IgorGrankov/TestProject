@@ -10,8 +10,8 @@ class HomePage(BasePage):
         self.navigate_to(self.home_page_url)
 
     def click_careers(self):
-        self.wait_for_element_invisible(HomePageLocators.SPINNER, 10)
-        self.wait_for_element_clickable(HomePageLocators.CAREER_HEADER_ITEM, 10).click()
+        self.wait_for_element_invisible(HomePageLocators.SPINNER, 20)
+        self.wait_for_element_clickable(HomePageLocators.CAREER_HEADER_ITEM, 20).click()
 
     def is_home_page_opened(self):
         return "The First Integrated Growth Management Platform - Insider" in self.driver.title
